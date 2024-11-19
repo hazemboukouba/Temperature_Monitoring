@@ -61,7 +61,7 @@ Voici un aperçu du système en action :
 ## **📜 Instructions d'Utilisation**
 1. Cloner ce dépôt :  
    ```bash
-   git clone https://github.com/votre-utilisateur/Controle-et-Affichage-de-la-temperature_stm32f4-Lm35-lcd.git
+   git clone https://github.com/hazemboukouba/Controle-et-Affichage-de-la-temperature_stm32f4-Lm35-lcd.git
 2. Ouvrir le projet dans STM32CubeIDE.
 3. Compiler et flasher le firmware sur le STM32F446RE.
 4. Connecter le matériel conformément au schéma.
