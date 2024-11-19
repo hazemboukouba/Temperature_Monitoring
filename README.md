@@ -33,6 +33,8 @@ Voici un aperçu du système en action :
 
 ![Aperçu](./capture1.jpg)
 
+![Aperçu](./capture2.jpg)
+
 ---
 
 ## **📂 Structure du Projet**
