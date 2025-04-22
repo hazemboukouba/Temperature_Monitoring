@@ -1,35 +1,34 @@
-# **🌡️ Contrôle et Affichage de la Température avec STM32F4, LM35 et LCD**
+# **🌡️ Temperature Monitoring**
 
 ## **📖 Description**
-Ce projet consiste à concevoir un système embarqué capable de mesurer et d'afficher la température ambiante en temps réel. Utilisant un microcontrôleur **STM32F446RE**, un capteur de température **LM35**, et un écran LCD, ce projet met en avant une solution fiable et efficace pour le suivi des variations thermiques.
+This project aims to design an embedded system capable of measuring and displaying ambient temperature in real time. Using an **STM32F446RE** microcontroller, an **LM35** temperature sensor, and an **LCD** screen, the project demonstrates a reliable and efficient solution for monitoring temperature variations.
 
 ---
 
-## **🎯 Objectifs du Projet**
-- Lire la température ambiante avec le capteur analogique **LM35**.
-- Convertir les données analogiques en numérique grâce à l'ADC (Convertisseur Analogique-Numérique) intégré au **STM32F446RE**.
-- Afficher les résultats en temps réel sur un écran **LCD**.
+## **🎯 Objectives**
+- Read ambient temperature using the **LM35** analog sensor.
+- Convert analog data to digital using the **STM32F446RE** built-in ADC (Analog-to-Digital Converter).
+- Display real-time temperature readings on an **LCD** screen.
+  
+---
 
+## **⚙️  Hardware Components**
+- **Microcontroller** : STM32F4 (STM32F446RE)
+- **Temperature Sensor** : LM35
+- **Display** : Standard 16x4 LCD
+- **Wires and Connectors** : For all necessary connections.
 
 ---
 
-## **⚙️ Composants Matériels**
-- **Microcontrôleur** : STM32F4 (STM32F446RE)
-- **Capteur de température** : LM35
-- **Écran** : LCD standard (16x2) 
-- **Connecteurs et câblage** : Pour les connexions.
-
----
-
-## **🖥️ Outils et Environnement**
+## **🖥️ Software Components**
 - **IDE** : STM32CubeIDE
-- **Bibliothèques** : HAL (Hardware Abstraction Layer) pour STM32
-- **Langage** : C
+- **Libraries**: HAL (Hardware Abstraction Layer) for STM32
+- **Language** : C Programming
 
 ---
 
-## **📸 Aperçu**
-Voici un aperçu du système en action :  
+## **📸 Preview**
+Here's a preview of the system in action:  
 
 ![Aperçu](./capture1.jpg)
 
@@ -37,39 +36,35 @@ Voici un aperçu du système en action :
 
 ---
 
-## **📂 Structure du Projet**
-- **Core/** : Contient le code source principal et les configurations STM32.
-- **Drivers/** : Bibliothèques HAL pour gérer les périphériques.
+## **🚀  Features**
+1. Accurate temperature reading in Celsius.
+2. Clear and readable LCD display.
+3. Fast response thanks to STM32F446RE performance.
 
 ---
 
-## **🚀 Fonctionnalités**
-1. Lecture précise de la température en degrés Celsius.
-2. Affichage clair et lisible sur un écran LCD.
-3. Réponse rapide grâce aux performances du microcontrôleur STM32F446RE.
-
----
-
-## **🔧 Connexions Matérielles**
+## **🔧 Hardware Connections**
 - **LM35** :
   - VCC → 3.3V
   - GND → GND
   - OUT → PA0 (ADC_IN0 sur STM32)
 - **LCD** (Mode 4 bits) :
-  - RS, E, D4-D7 connectés aux GPIO de l'**STM32F4**.
+  - RS, E, D4-D7 connected to **STM32F4** GPIOs.
 
 ---
 
-## **📜 Instructions d'Utilisation**
-1. Cloner ce dépôt :  
-   ```bash
-   git clone https://github.com/hazemboukouba/Controle-et-Affichage-de-la-temperature_stm32f4-Lm35-lcd.git
-2. Ouvrir le projet dans STM32CubeIDE.
-3. Compiler et flasher le firmware sur le STM32F446RE.
-4. Connecter le matériel conformément au schéma.
-5. Alimenter le système et observer les données affichées sur le LCD.
+## **📜 How to Use**
+1. Clone this repository:  
+   git clone https://github.com/hazemboukouba/Temperature_Monitoring.git
 
-## 🎉 Auteur
+2. Open the project in STM32CubeIDE.
+3. Build and flash the firmware to the STM32F446RE.
+4. Connect the hardware as shown in the wiring diagram.
+5. Power the system and observe the temperature readings on the LCD.
+   
+---
 
-Hazem BOUKOUBA - Ingénieur en systèmes embarqués passionné.
+## 🎉 Author
+
+Hazem BOUKOUBA - Embedded Systems Engineer
 📧 Contact : www.linkedin.com/in/boukouba-hazem
